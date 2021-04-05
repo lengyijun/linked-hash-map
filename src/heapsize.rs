@@ -1,3 +1,4 @@
+use std::prelude::v1::*;
 extern crate heapsize;
 
 use self::heapsize::{HeapSizeOf, heap_size_of};

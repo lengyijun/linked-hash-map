@@ -34,6 +34,11 @@
 #![cfg_attr(feature = "clippy", plugin(clippy))]
 #![cfg_attr(feature = "clippy", deny(clippy))]
 
+#![no_std]
+use std::prelude::v1::*;
+#[macro_use]
+extern crate sgx_tstd as std;
+
 // Optional Serde support
 #[cfg(feature = "serde_impl")]
 pub mod serde;

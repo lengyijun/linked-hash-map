@@ -1,5 +1,6 @@
 //! An optional implementation of serialization/deserialization.
 
+use std::prelude::v1::*;
 extern crate serde;
 
 use std::fmt::{Formatter, Result as FmtResult};
